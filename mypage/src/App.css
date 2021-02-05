@@ -1,0 +1,142 @@
+.main-page {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1920px;
+  flex-direction: column;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(216,232,208,1) 35%);
+  color: rgb(0, 0, 0);
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+}
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.welcome {
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 400;
+  color: #fff;
+  background-color:#6C8976;
+  margin-left: 1em;
+  text-align: center;
+}
+.thanks {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0 3em;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.list-text {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 5em 0;
+  list-style-type: '-';
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-description {
+  font-size: 3em;
+  text-align: justify;
+  line-height: 2;
+  margin: 1em;
+}
+.button {
+  text-decoration: none;
+  padding: 3em 50em;
+}
+.about-footer-text {
+  text-align: center;
+  font-size: 2.3em;
+}
+
+
+.teoretical {
+  background-color: #fff;
+}
+.description {
+font-size: 2.5em;
+font-weight: 400;
+line-height: 2;
+text-align: justify;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.project-description {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+  width: 40%;
+}
+
+.portfolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 10em;
+}
+.portfolio-title {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 400;
+  color: #fff;
+  background-color:#6C8976;
+  margin: 2em 10em;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color:#6C8976;
+}
+.footer-text {
+  font-size: 2em;
+  color: #fff;
+}
+.footer-img {
+  margin-top: 3em;
+}
+
+@media only screen and (max-width: 2880px) {
+  .main-page {
+   width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  body {
+   width: 120%;
+  }
+}
